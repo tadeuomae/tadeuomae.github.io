@@ -1,24 +1,8 @@
 /*
-	Forty by HTML5 UP
+	Phantom by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
-/* Spotlights */
-
-	.spotlights > section:after {
-		content: '';
-		display: block;
-		clear: both;
-	}
-
-	.spotlights > section > .image {
-		float: left;
-	}
-
-	.spotlights > section > .content {
-		float: left;
-	}
 
 /* Tiles */
 
@@ -29,66 +13,28 @@
 	}
 
 	.tiles article {
-		padding: 8em 4em 6em 4em ;
 		float: left;
-		height: auto;
-		max-height: none;
-		min-height: 0;
 	}
 
-/* Header */
-
-	#header .logo {
-		position: absolute;
-		top: 0;
-		left: 0;
-	}
-
-	#header nav {
-		position: absolute;
-		top: 0;
-		right: 0;
-	}
-
-/* Banner */
-
-	#banner {
-		padding: 7em 0 4em 0 ;
-		background-attachment: scroll;
-		height: auto;
-		max-height: none;
-		min-height: 0;
-	}
-
-		#banner > .inner .content {
-			display: block;
+		.tiles article > a {
+			padding-top: 50%;
+			margin-top: -1.75em;
 		}
 
-			#banner > .inner .content > * {
-				margin-left: 0;
-				margin: 0 0 2em 0;
-			}
-
-		#banner.major {
-			height: auto;
-			max-height: none;
-			min-height: 0;
+		body:not(.is-touch) .tiles article:hover > .image {
+			-moz-transform: none;
+			-webkit-transform: none;
+			-ms-transform: none;
+			transform: none;
 		}
 
-/* Contact */
+/* Footer */
 
-	#contact:after {
-		content: '';
-		display: block;
+	#footer > .inner section {
+		float: left;
+	}
+
+	#footer > .inner .copyright {
 		clear: both;
-	}
-
-	#contact > .inner > * {
-		float: left;
-	}
-
-/* Menu */
-
-	#menu .inner {
-		margin: 0 auto;
+		padding-top: 4em;
 	}
